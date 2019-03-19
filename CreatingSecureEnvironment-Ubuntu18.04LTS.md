@@ -54,7 +54,7 @@ After creating a "Live CD" **I highly recommend to physically remove all your ha
 
 ### Installing Ubuntu 18.04 LTS
 
-Now after burning of the "Live CD" is complete we need to enter Boot Menu, to do this you have to **restart or turn on and off again **your PC/laptop and and press **F12 **during the initial startup screen (NOTE: that key might differ depending on your bios and motherboard manufacturer). Depending on the BIOS manufacturer, a menu may appear. Navigate using arrow keys, select **Flash Drive** (your 4GB flash drive to boot from) and press enter. 
+Now after burning of the "Live CD" is complete we need to enter Boot Menu, to do this you have to **restart or turn on and off again** your PC/laptop and and press **F12** during the initial startup screen (NOTE: that key might differ depending on your bios and motherboard manufacturer). Depending on the BIOS manufacturer, a menu may appear. Navigate using arrow keys, select **Flash Drive** (your 4GB flash drive to boot from) and press enter. 
 
 _NOTE: If by mistake you enter BIOS you can also change boot priority by navigating to BOOT tab to give a USB device highest boot sequence priority over the hard drive and then save and restart your machine._ _In some cases you might have to enable option in your BIOS to allow booting from USB devices before you can complete previous step. In such case you might have to refer to your motherboard manufacturer instructions in order to enable this option. (It might for example require setting "Secure Boot Control" to Disabled or switch to "Boot" and set "Launch CSM" to Enabled.)_
 
@@ -62,7 +62,7 @@ Once "console like" looking GNU GRUB bootloader appears Plug your 64GB pendrive 
 
 Doubleclick on the "Install Ubuntu 18.04.X LTS" icon and follow all default option during installation wizard, it's recommended to use "Encrypt the Ubuntu Installation" option but it might not work on all PC's and laptops after installation completes and you might have to try again without. If you took my advice to hearth **to remove all your hard drives** from your machine then you can select "Erase disk and install Ubuntu" option and do not have to worry that you will lose your data. If you didn't you can try to use "Something else" option during installation type step of the wizard and [follow this tutorial](https://linuxhint.com/run-ubuntu-18-04-from-usb-stick/), but I highly **advise against** as it's not guaranteed to work and can corrupt your boot partition in irrecoverable way.
 
-After installation is complete you can remove your 4GB "Live CD" flash drive, reboot your machine and press **F12 **during the initial startup screen to enter Boot Menu then select your 64GB flash drive with full ubuntu installation to boot from. After logging in **you are ready to safely **install any tools and wallets.
+After installation is complete you can remove your 4GB "Live CD" flash drive, reboot your machine and press **F12** during the initial startup screen to enter Boot Menu then select your 64GB flash drive with full ubuntu installation to boot from. After logging in **you are ready to safely** install any tools and wallets.
 
 
 
