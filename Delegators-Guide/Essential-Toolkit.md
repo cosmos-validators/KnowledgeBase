@@ -33,7 +33,7 @@ _NOTE: If you choose to not follow [Creating Secure Environment Guide](https://g
 
 ### Installing Essential Toolkit
 
-Login to your account and enter terminal console by key combination of: **CTRL+ALT+T **
+Login to your account and enter terminal console by key combination of: **CTRL+ALT+T**
 
 Install and upgrade essential build tools, by typing or copy pasting following commands into Terminal console and confirming them with **ENTER** key:
 

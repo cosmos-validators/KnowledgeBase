@@ -59,7 +59,7 @@ After creating a "Live CD" **I highly recommend to physically remove all your ha
 
 ### Installing Ubuntu 18.04 LTS
 
-Now after burning of the "Live CD" is complete we need to enter Boot Menu, to do this you have to **restart or turn on and off again **your PC/laptop and and press **F12 **during the initial startup screen (NOTE: that key might differ depending on your bios and motherboard manufacturer). Depending on the BIOS manufacturer, a menu may appear. Navigate using arrow keys, select **Flash Drive** (your 4GB flash drive to boot from) and press enter. 
+Now after burning of the "Live CD" is complete we need to enter Boot Menu, to do this you have to **restart or turn on and off again** your PC/laptop and and press **F12** during the initial startup screen (NOTE: that key might differ depending on your bios and motherboard manufacturer). Depending on the BIOS manufacturer, a menu may appear. Navigate using arrow keys, select **Flash Drive** (your 4GB flash drive to boot from) and press enter. 
 
 _NOTE: If by mistake you enter BIOS you can also change boot priority by navigating to BOOT tab to give a USB device highest boot sequence priority over the hard drive and then save and restart your machine._ _In some cases you might have to enable option in your BIOS to allow booting from USB devices before you can complete previous step. In such case you might have to refer to your motherboard manufacturer instructions in order to enable this option. (It might for example require setting "Secure Boot Control" to Disabled or switch to "Boot" and set "Launch CSM" to Enabled.)_
 

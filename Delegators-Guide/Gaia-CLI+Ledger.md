@@ -117,9 +117,9 @@ In case of Ledger each network or blockchain such as Ethereum, Bitcoin, Cosmos h
 
 #### Ledger Live Installation
 
-Login to your account and enter terminal console by key combination of: **CTRL+ALT+T **
+Login to your account and enter terminal console by key combination of: **CTRL+ALT+T**
 
-Install Ledger Live and create a console shortcut to it, by typing or copy pasting following commands into Terminal console and confirming them with **ENTER **key:
+Install Ledger Live and create a console shortcut to it, by typing or copy pasting following commands into Terminal console and confirming them with **ENTER** key:
 
 
 ```
@@ -132,7 +132,7 @@ chmod +x $HOME/ledger/ledger-live && ln -s $HOME/ledger/ledger-live /usr/local/b
 ```
 
 
-To launch the Ledger Live application all you have to do now is use already open or start a new console terminal with **CTRL+ALT+T** key combination and then type following command confirmed by **ENTER **key:
+To launch the Ledger Live application all you have to do now is use already open or start a new console terminal with **CTRL+ALT+T** key combination and then type following command confirmed by **ENTER** key:
 
 
 ```
@@ -193,9 +193,9 @@ Before you proceed you must make sure your Ledger Nano S device is connected to 
 ![alt_text](images/cli+ledger-4.png "image_tooltip")
 
 
-Login to your account and enter terminal console by key combination of: **CTRL+ALT+T **
+Login to your account and enter terminal console by key combination of: **CTRL+ALT+T**
 
-Create your account, by typing or copy pasting following commands into Terminal console and confirming them with **ENTER **key:
+Create your account, by typing or copy pasting following commands into Terminal console and confirming them with **ENTER** key:
 
 
 ```
@@ -209,7 +209,7 @@ Result of the command should output NAME, TYPE,  ADDRESS and PUBKEY separated by
 ![alt_text](images/cli+ledger-5.png "image_tooltip")
 
 
-The "ADDRESS" aka [Cosmos Account Number](https://github.com/cosmos/cosmos-sdk/blob/7f789d2ed342de18f4443ae434f3e43f790f1854/docs/spec/addresses/bech32.md) is a **public **string with a human-readable prefix (e.g. **cosmos1**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) that identifies your account. When someone wants to send you funds you can provide them with that address. 
+The "ADDRESS" aka [Cosmos Account Number](https://github.com/cosmos/cosmos-sdk/blob/7f789d2ed342de18f4443ae434f3e43f790f1854/docs/spec/addresses/bech32.md) is a **public** string with a human-readable prefix (e.g. **cosmos1**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) that identifies your account. When someone wants to send you funds you can provide them with that address. 
 
 
 ### Connecting to Cosmos Seed Node
