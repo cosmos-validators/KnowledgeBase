@@ -238,7 +238,7 @@ gaiacli query account cosmos1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 
-_NOTE: Your balance is displayed in uatom aka "Mico Atoms" NOT ATOMs so be carefull, delegation will also have to be defined in uatoms. 1 ATOM == 1'000'000 uatom's so you have to remember to add 6 more zeroes to the value you want to delegate._
+_NOTE: Your balance is displayed in uatom aka "Mico Atoms" NOT ATOMs so be carefull, delegation will also have to be defined in uatoms. `1` ATOM == `1'000'000` uatom's so you have to remember to add 6 more zeroes to the value you want to delegate._
 
 If you typed something wrong and you see error saying configuration is invalid or that there are issues with "toml" file, you can edit it by typing:
 
@@ -255,7 +255,7 @@ Content should resemble following screenshot
 ![alt_text](images/cli-2.png "image_tooltip")
 
 
-_NOTE: When using nano editor in order to save changes press combination of keys: CTRL+O, [ENTER], CTRL+X_
+_NOTE: When using nano editor in order to save changes press combination of keys: **CTRL+O**, **[ENTER]**, **CTRL+X**_
 
 
 
@@ -268,9 +268,9 @@ For the purpose of this tutorial we will use [Bity.com Cosmos Validator](https:/
 
 _NOTE: This tutorial will work regardless of the validator public address you choose, please ensure good practices and due diligence when selecting validators to delegate your coins._
 
-Before you can delegate you have to specify **<amountToBond>**. this amount is "the amount you want to delegate" **defined in micro atoms** (10^-6 atoms or 1`000`000 uatoms per 1 ATOM). 
+Before you can delegate you have to specify **<amountToBond>**. this amount is "the amount you want to delegate" **defined in micro atoms** (`10^-6` atoms or `1'000'000` uatoms per `1` ATOM). 
 
-If you wish to for example delegate 123 ATOMS you have to set this amount to 123000000uatom (<span style="text-decoration:underline;">suffix with 6 zeros and 'uatom' sting without white spaces</span>)
+If you wish to for example delegate `123` ATOMS you have to set this amount to `123000000uatom` (<span style="text-decoration:underline;">suffix with `6` zeros and 'uatom' sting without white spaces</span>)
 
 
 ```
