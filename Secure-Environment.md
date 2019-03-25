@@ -3,9 +3,13 @@
 
 ## Ubuntu 18.04 LTS
 
+
+### Introduction & Prerequisites 
+
 This tutorial assumes you do not have access to a [hardware wallet](https://www.ledger.com) (which is a recommended way of storing your cryptographic secrets) and showcases creation of secure environment from where you can safely access your private key or send a transaction with minimal cost and effort. If you choose to follow this tutorial make sure you backed up all your data, because you might permanently lose it or damage your hardware while performing some of the steps. Please note that even by following this tutorial you can't be guarantee absolute safety and should perform your own due diligence.
 
-Prerequisites / Hardware:
+
+### Prerequisites
 
 
 
@@ -13,7 +17,8 @@ Prerequisites / Hardware:
 *   Pendrive with at least 4GB flash memory where we will burn Ubuntu "Live CD"
 *   Pendrive with at least 64GB flash memory (USB 3.1) were we will instal Ubuntu OS
 
-Bullet Point steps that will be completed during this tutorial
+
+### Steps To Complete
 
 
 
@@ -54,7 +59,7 @@ After creating a "Live CD" **I highly recommend to physically remove all your ha
 
 ### Installing Ubuntu 18.04 LTS
 
-Now after burning of the "Live CD" is complete we need to enter Boot Menu, to do this you have to **restart or turn on and off again** your PC/laptop and and press **F12** during the initial startup screen (NOTE: that key might differ depending on your bios and motherboard manufacturer). Depending on the BIOS manufacturer, a menu may appear. Navigate using arrow keys, select **Flash Drive** (your 4GB flash drive to boot from) and press enter. 
+Now after burning of the "Live CD" is complete we need to enter Boot Menu, to do this you have to **restart or turn on and off again **your PC/laptop and and press **F12 **during the initial startup screen (NOTE: that key might differ depending on your bios and motherboard manufacturer). Depending on the BIOS manufacturer, a menu may appear. Navigate using arrow keys, select **Flash Drive** (your 4GB flash drive to boot from) and press enter. 
 
 _NOTE: If by mistake you enter BIOS you can also change boot priority by navigating to BOOT tab to give a USB device highest boot sequence priority over the hard drive and then save and restart your machine._ _In some cases you might have to enable option in your BIOS to allow booting from USB devices before you can complete previous step. In such case you might have to refer to your motherboard manufacturer instructions in order to enable this option. (It might for example require setting "Secure Boot Control" to Disabled or switch to "Boot" and set "Launch CSM" to Enabled.)_
 
@@ -70,3 +75,5 @@ After installation is complete you can remove your 4GB "Live CD" flash drive, re
 ### Foreword
 
 If you have chosen to follow this tutorial to access your private key and are installing third party software even from trusted sources make sure that fore each "wallet" you install or access you create a separate "Secure Environment". If you do not follow this advice you might end up installing malicious software and increase a risk of exposing your secrets. 
+
+
