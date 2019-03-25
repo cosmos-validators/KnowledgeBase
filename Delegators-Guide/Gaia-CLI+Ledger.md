@@ -6,17 +6,17 @@
 
 ## Introduction
 
-This tutorial showcases secure key extraction from the [Cosmos Network](https://cosmos.network/) fundraiser seed and delegation using [Ledger Nano S](https://www.ledger.com/products/ledger-nano-s) hardware wallet and secure, open source software. If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system installed or follow or complete our "[Create Secure Environment Guide](https://docs.google.com/document/d/e/2PACX-1vRzVfjGui99pzbhwiTVwesazRntEVVJ138jpA-yEasS2nh0FDat8HGqYzJ6ZRL1WSy2Tec3F56KJ-4r/pub)". Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer but it might not protect you against all kinds of malware that is potentially already hosted on your machine. For this reason you should always verify the address where your transaction is sent on the screen of your hardware wallet and should never trust what your computer screen is showing you.
+This tutorial showcases secure key extraction from the [Cosmos Network](https://cosmos.network/) fundraiser seed and delegation using [Ledger Nano S](https://www.ledger.com/products/ledger-nano-s) hardware wallet and secure, open source software. If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system installed or follow or complete our "[Create Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)". Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer but it might not protect you against all kinds of malware that is potentially already hosted on your machine. For this reason you should always verify the address where your transaction is sent on the screen of your hardware wallet and should never trust what your computer screen is showing you.
 
-_NOTE: If you choose to not follow [Creating Secure Environment Guide](https://docs.google.com/document/d/e/2PACX-1vRzVfjGui99pzbhwiTVwesazRntEVVJ138jpA-yEasS2nh0FDat8HGqYzJ6ZRL1WSy2Tec3F56KJ-4r/pub) and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
+_NOTE: If you choose to not follow [Creating Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment) and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
 
 
 ### Prerequisites
 
 
 
-*   Completing [Creation of Secure Environment Guide](https://docs.google.com/document/d/e/2PACX-1vRzVfjGui99pzbhwiTVwesazRntEVVJ138jpA-yEasS2nh0FDat8HGqYzJ6ZRL1WSy2Tec3F56KJ-4r/pub) or clean installation of Ubuntu 18.04
-*   Completing [Installation of Essential Toolkit](https://docs.google.com/document/d/1xNiQUT52iy-I6EKGEpY6SQBXozg7WAYmQdgja9CRFmk/edit?usp=sharing) on your Secure Environment 
+*   Completing [Creation of Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment) or clean installation of Ubuntu 18.04
+*   Completing [Installation of Essential Toolkit](https://github.com/cosmos-validators/Tutorials/blob/master/Delegators-Guide/Essential-Toolkit.md#delegators-essential-toolkit-guide) on your Secure Environment 
 
 
 ### Steps To Complete
@@ -104,7 +104,7 @@ Before you proceed make sure that all your [cosmos network fundraiser](https://f
 
 ### Cosmos Ledger Application Installation
 
-In case of Ledger each network or blockchain such as Ethereum, Bitcoin, Cosmos has its own dedicated ledger application. In this step we will be installing Cosmos Network Ledger App using Ledger Live desktop client. This part of the tutorial requires Ubuntu 18.04 it's highly recommended that for yours and your files security you create a clean [Secure Environment](https://docs.google.com/document/d/e/2PACX-1vRzVfjGui99pzbhwiTVwesazRntEVVJ138jpA-yEasS2nh0FDat8HGqYzJ6ZRL1WSy2Tec3F56KJ-4r/pub) if you choose not follow this advice and use your everyday use OS you risk permanently corrupting it or losing your data.
+In case of Ledger each network or blockchain such as Ethereum, Bitcoin, Cosmos has its own dedicated ledger application. In this step we will be installing Cosmos Network Ledger App using Ledger Live desktop client. This part of the tutorial requires Ubuntu 18.04 it's highly recommended that for yours and your files security you create a clean [Secure Environment](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment) if you choose not follow this advice and use your everyday use OS you risk permanently corrupting it or losing your data.
 
 
 #### Prerequisites
@@ -112,7 +112,7 @@ In case of Ledger each network or blockchain such as Ethereum, Bitcoin, Cosmos h
 
 
 *   Ledger Nano S with the supplied micro USB cable
-*   Ubuntu 18.04  Operating System or Completing [Creation of Secure Environment Guide](https://docs.google.com/document/d/e/2PACX-1vRzVfjGui99pzbhwiTVwesazRntEVVJ138jpA-yEasS2nh0FDat8HGqYzJ6ZRL1WSy2Tec3F56KJ-4r/pub).
+*   Ubuntu 18.04  Operating System or Completing [Creation of Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment).
 
 
 #### Ledger Live Installation
@@ -184,7 +184,7 @@ Once installation is complete you will find new app within your ledger nano devi
 
 ### Account Creation
 
-Once installation of [essential tools](https://docs.google.com/document/d/1xNiQUT52iy-I6EKGEpY6SQBXozg7WAYmQdgja9CRFmk/edit?usp=sharing) and Cosmos Ledger Application is completed you can proceed to create new "account" using gaiacli that will later be used to delegate your coins. For the tutorial purposes we will call your new account "**FundraiserAccountLedger**" but it can be any word that will help you recognize it origin.
+Once installation of [essential tools](https://github.com/cosmos-validators/Tutorials/blob/master/Delegators-Guide/Essential-Toolkit.md#delegators-essential-toolkit-guide) and Cosmos Ledger Application is completed you can proceed to create new "account" using gaiacli that will later be used to delegate your coins. For the tutorial purposes we will call your new account "**FundraiserAccountLedger**" but it can be any word that will help you recognize it origin.
 
 Before you proceed you must make sure your Ledger Nano S device is connected to your PC with the USB cable and that you entered Cosmos Ledger Application otherwise following command will fail with the "ERROR: ledger nano S: are you sure the Cosmos app is open?"
 

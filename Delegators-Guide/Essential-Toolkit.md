@@ -7,16 +7,16 @@
 
 ## Introduction
 
-This tutorial showcases installation of essential tools required for the delegator to interact with [Cosmos Network](https://cosmos.network/intro). If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system installed or follow or complete our "[Create Secure Environment Guide](https://docs.google.com/document/d/e/2PACX-1vRzVfjGui99pzbhwiTVwesazRntEVVJ138jpA-yEasS2nh0FDat8HGqYzJ6ZRL1WSy2Tec3F56KJ-4r/pub)". Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer but it will not protect you against malware that is potentially already hosted on machine such as keyloggers when you will be retyping your fundraiser seed.
+This tutorial showcases installation of essential tools required for the delegator to interact with [Cosmos Network](https://cosmos.network/intro). If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system installed or follow or complete our "[Create Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)". Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer but it will not protect you against malware that is potentially already hosted on machine such as keyloggers when you will be retyping your fundraiser seed.
 
-_NOTE: If you choose to not follow [Creating Secure Environment Guide](https://docs.google.com/document/d/e/2PACX-1vRzVfjGui99pzbhwiTVwesazRntEVVJ138jpA-yEasS2nh0FDat8HGqYzJ6ZRL1WSy2Tec3F56KJ-4r/pub) and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
+_NOTE: If you choose to not follow [Creating Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment) and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
 
 
 ### Prerequisites
 
 
 
-*   Completing [Creation of Secure Environment Guide](https://docs.google.com/document/d/e/2PACX-1vRzVfjGui99pzbhwiTVwesazRntEVVJ138jpA-yEasS2nh0FDat8HGqYzJ6ZRL1WSy2Tec3F56KJ-4r/pub) or clean installation of Ubuntu 18.04
+*   Completing [Creation of Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment) or clean installation of Ubuntu 18.04
 
 
 ### Steps To Complete
