@@ -2,11 +2,11 @@
 
 # Creating Secure Environment
 
-## Secure Environment with Ubuntu 18.04 LTS
+## Ubuntu 18.04 LTS
 
-### Introduction & Prerequisites 
+### Introduction
 
-This tutorial assumes you do not have access to a [hardware wallet](https://www.ledger.com) (which is a recommended way of storing your cryptographic secrets) and showcases creation of secure environment from where you can safely access your private key, delegate or send a transactions with minimal cost and effort. If you choose to follow this tutorial make sure you backed up all your data, because you might permanently lose it or damage your hardware while performing some of the steps. Please note that even by following this tutorial you can't be guaranteed absolute safety and should perform your own due diligence.
+If you choose to follow this tutorial make sure you backed up all your data, because you might permanently lose it or damage your hardware while performing some of the steps. Please note that even by following this tutorial you can't be guaranteed absolute safety and should perform your own due diligence.
 
 
 ### Prerequisites
@@ -28,10 +28,6 @@ This tutorial assumes you do not have access to a [hardware wallet](https://www.
 
 _NOTE: It's recommended that you use a pendrive with at least "up to" 200MB/s read and 150MB/s write speed compatible with USB 3.1 standard. It's essential to use high quality hardware as installing operating system will wear off flash memory and it's usability / user experience will be capped by how fast your flash drive can be._
 
-
-## 
-
-#
 
 ## Burning Ubuntu 18.04 LTS "Live CD"
 
@@ -56,7 +52,6 @@ sudo QT_X11_NO_MITSHM=1 unetbootin
 After creating a "Live CD" **I highly recommend to physically remove all your hard drives from your PC or laptop before you proceed!** If you can't do it I advise against following this tutorial as sometimes ubuntu installation wizard can override EFI or Boot partition even if you explicitly select advanced options and define that you only want to use partition on your usb stick for "Device for boot loader installation". I repeat, that <span style="text-decoration:underline;">not removing all your hard drives prior to full installation if Ubuntu on your 64GB flash drive might irreversibly corrupt your boot loader</span> regardless of the options you choose (in the installation wizard), to the point where even using [boot-repair](https://help.ubuntu.com/community/Boot-Repair) tool will not help you fix the issue.
 
 
-#
 
 ## Installing Ubuntu 18.04 LTS
 
@@ -71,7 +66,6 @@ Double-click on the "Install Ubuntu 18.04.X LTS" icon and follow all default opt
 After installation is complete you can remove your 4GB "Live CD" flash drive, reboot your machine and press **F12** during the initial startup screen to enter Boot Menu. This time select your 64GB flash drive with full ubuntu installation to boot from. After logging in **you are ready to safely** install any tools, wallets or extract your secrets.
 
 
-#
 
 ## Foreword
 

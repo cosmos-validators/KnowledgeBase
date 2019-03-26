@@ -2,9 +2,7 @@
 
 # Account Recovery & Delegators Guide
 
-
 ## Command Line Only
-
 
 ### Introduction
 
@@ -26,8 +24,6 @@ _NOTE: If you choose to not follow **[Creating Secure Environment Guide](https:/
 *   Delegating your coins to validator of choice and querying account balance
 *   Withdrawing your staking rewards & redelegation
 
-#
-
 ## Account Recovery From Fundraiser Seed
 
 Once installation of **[essential tools](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)** is completed you can proceed to restore your account using fundraiser seed words by adding/creating new encrypted key used to sign transactions. For the tutorial purposes we will call it `FundraiserSecret` but it can be any word that will help you to recognize your key name.
@@ -46,8 +42,6 @@ _NOTE: Do NOT lose password you enter before you enter your seed words, it will 
 ![alt_text](images/cli-1.png "image_tooltip")
 
 The `ADDRESS` aka [Cosmos Account Number](https://github.com/cosmos/cosmos-sdk/blob/7f789d2ed342de18f4443ae434f3e43f790f1854/docs/spec/addresses/bech32.md) is a **public key** - string with a human-readable prefix (e.g. **cosmos1**xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) that identifies your account. When someone wants to send you funds you can provide them with that address. 
-
-
 
 
 ### Connecting to Cosmos Seed Node
@@ -97,8 +91,6 @@ Content should resemble following screenshot
 _NOTE: When using nano editor in order to save changes press combination of keys: **CTRL+O**, **[ENTER]**, **CTRL+X**_
 
 
-#
-
 ## Delegating ATOMs to Your Validator of choice
 
 For the purpose of this tutorial we will use [Bity.com Cosmos Validator](https://bity.com/products/crypto-staking-services/) public address that is
@@ -118,9 +110,6 @@ gaiacli tx staking delegate cosmosvaloper1uv26ytrnmydyctq0s58ve2k6wn2p653mqs80fm
 
 
 Once you enter this command you will be prompted to type Y to confirm it's correctness and then type the password you used while recovering your key with 'gaiacli keys add' command to encrypt your FundraiserSecret.
-
-
-#
 
 ## Collecting Delegation Rewards
 

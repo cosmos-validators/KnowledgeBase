@@ -27,12 +27,12 @@ _NOTE: If you choose to not follow **[Creating Secure Environment Guide](https:/
 *   Installing official fundraiser CLI tool
 
 
-#
-
 ## Delegator Setup using Ubuntu 18.04 LTS
 
 
 ### Installing Essential Toolkit
+
+#### Installing Build Tools
 
 Login to your account and enter terminal console by key combination of: **CTRL+ALT+T**
 
@@ -46,7 +46,7 @@ apt-get -y update && apt-get -y upgrade && apt-get -y  install build-essential z
 ```
 
 
-Install GOLANG
+#### Installing GOLANG
 
 rm -r -v -f /usr/local/go
 
@@ -101,6 +101,8 @@ source /etc/profile
 
 go version
 ```
+
+#### Installing cosmos-sdk
 
 
 Console should response with `go version go1.11.5 linux/amd64` message and you can proceed to install `cosmos-sdk`.

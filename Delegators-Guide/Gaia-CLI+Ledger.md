@@ -29,7 +29,6 @@ _NOTE: If you choose to not follow **[Creating Secure Environment Guide](https:/
 *   Delegating your coins to validator of choice and querying account balance
 *   Withdrawing your staking rewards & redelegation
 
-#
 
 ## Account Recovery from Cosmos Fundraiser Seed using Ledger Nano S
 
@@ -89,11 +88,7 @@ Before you proceed make sure that all your [cosmos network fundraiser](https://f
 6. Your device is now ready is displayed if you've successfully entered your recovery phrase.
 
 
-#
-
-
 ## `COSMOS` - Ledger App Installation
-
 
 ### Introduction
 
@@ -173,8 +168,6 @@ After installation is complete you will find new app within your ledger nano dev
 
 ![alt_text](images/cli+ledger-3.png "image_tooltip")
 
-
-#
 
 ## Delegators Guide using Ubuntu 18.04 LTS
 
@@ -258,8 +251,6 @@ Content should resemble following screenshot
 _NOTE: When using nano editor in order to save changes press combination of keys: **CTRL+O**, **[ENTER]**, **CTRL+X**_
 
 
-#
-
 ### Delegating ATOMs to Your Validator of choice
 
 For the purpose of this tutorial we will use **[Bity.com Cosmos Validator](https://bity.com/products/crypto-staking-services/)** public address that is
@@ -280,9 +271,6 @@ Before you enter following command make sure that your Ledger Nano S device is c
 ```
 gaiacli tx staking delegate cosmosvaloper1uv26ytrnmydyctq0s58ve2k6wn2p653mqs80fm <amountToBond>uatom --from FundraiserAccountLedger --fees=50000uatom
 ```
-
-
-#
 
 ### Collecting Delegation Rewards
 
