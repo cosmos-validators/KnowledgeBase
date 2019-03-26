@@ -102,10 +102,10 @@ source /etc/profile
 go version
 ```
 
-#### Installing cosmos-sdk
-
-
 Console should response with `go version go1.11.5 linux/amd64` message and you can proceed to install `cosmos-sdk`.
+
+
+#### Installing cosmos-sdk
 
 
 ```
