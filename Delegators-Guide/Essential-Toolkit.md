@@ -1,3 +1,4 @@
+<div style="text-align: justify">
 
 # Delegators Essential Toolkit Guide
 
@@ -5,11 +6,11 @@
 ## Command Line Only
 
 
-## Introduction
+### Introduction
 
-This tutorial showcases installation of essential tools required for the delegator to interact with [Cosmos Network](https://cosmos.network/intro). If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system installed or follow or complete our "[Create Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)". Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer but it will not protect you against malware that is potentially already hosted on machine such as keyloggers when you will be retyping your fundraiser seed.
+This tutorial showcases installation of essential tools required for the delegator to interact with [Cosmos Network](https://cosmos.network/intro). If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system installed or follow or complete our **[Create Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)**. Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer but it will not protect you against malware that is potentially already hosted on machine such as keyloggers when you will be retyping your fundraiser seed.
 
-_NOTE: If you choose to not follow [Creating Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment) and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
+_NOTE: If you choose to not follow **[Creating Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)** and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
 
 
 ### Prerequisites
@@ -26,7 +27,7 @@ _NOTE: If you choose to not follow [Creating Secure Environment Guide](https://g
 *   Installing official fundraiser CLI tool
 
 
-
+#
 
 ## Delegator Setup using Ubuntu 18.04 LTS
 
@@ -70,7 +71,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$GOBIN
 ```
 
 
-To save changes press combination of keys: CTRL+O, [ENTER], CTRL+X
+To save changes press combination of keys: **CTRL+O**, **[ENTER]**, **CTRL+X**
 
 (make sure above commands have no quotes or any other undesired characters copied by mistake)
 
@@ -90,18 +91,19 @@ source /etc/profile
 ```
 
 
-To save changes press combination of keys: CTRL+O, [ENTER], CTRL+X
+To save changes press combination of keys: **CTRL+O**, **[ENTER]**, **CTRL+X**
 
 To verify go version run following two commands (without having to restart your machine)
 
 
 ```
 source /etc/profile
+
 go version
 ```
 
 
-Console should response with 'go version go1.11.5 linux/amd64' message and you can proceed to install cosmos-sdk.
+Console should response with `go version go1.11.5 linux/amd64` message and you can proceed to install `cosmos-sdk`.
 
 
 ```
@@ -114,7 +116,4 @@ cd cosmos-sdk && git checkout master
 make tools install
 ```
 
-
-
-### 
-
+</div>

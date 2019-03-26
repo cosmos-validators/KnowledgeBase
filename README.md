@@ -7,8 +7,8 @@
 
 * ### [Cosmos Network - Delegators Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Delegators-Guide/README.md)
   - fundraiser seed recovery
-  - essential toolkit deleagtion
-  - account balance & other basic queries
+  - essential toolkit installation
+  - account balance check & other basic queries
   - delegating ATOM's
   - claiming rewards 
 
