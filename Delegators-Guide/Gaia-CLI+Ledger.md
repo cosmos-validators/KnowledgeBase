@@ -165,6 +165,8 @@ Navigate to "Manager" in the MENU on the left then type `COMOS` in the App catal
 
 After installation is complete you will find new app within your ledger nano device. To enter it you have to click both left and right button at the same time. 
 
+It's recommended that you update your Ledger Nano S device to version 1.5.5 or higher otherwise unexpected issues might appear while using gaiacli tool later in the tutorial. Update option/button can be found in the top right corner of the Manager view in the Ledger Live client.
+
 
 ![alt_text](images/cli+ledger-3.png "image_tooltip")
 
@@ -269,8 +271,13 @@ If you wish to for example delegate `123` ATOMS you have to set this amount to `
 Before you enter following command make sure that your Ledger Nano S device is connected to your PC and that you navigate to and enter `COSMOS` App before executing it.
 
 ```
-gaiacli tx staking delegate cosmosvaloper1uv26ytrnmydyctq0s58ve2k6wn2p653mqs80fm <amountToBond>uatom --from FundraiserAccountLedger --fees=50000uatom
+gaiacli tx staking delegate cosmosvaloper1uv26ytrnmydyctq0s58ve2k6wn2p653mqs80fm <amountToBond>uatom --from FundraiserAccountLedger --fees=50000uatom --chain-id cosmoshub-1 
 ```
+
+After executing the command you have to confirm it with **Y** key followed by **[ENTER]** and then verify correctness on your Ledger Nano S screen, continue the tx preview by clicking right button unit `Sign transaction` option appears then click both left and right button at the same time.
+
+From time to time you might experience `Response:
+ERROR: broadcast_tx_commit: Response error: RPC error -32603 - Internal error: Timed out waiting for tx to be included in a block` in such case you can just repeat the command until it succeeds. 
 
 ### Collecting Delegation Rewards
 

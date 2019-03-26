@@ -48,11 +48,9 @@ apt-get -y update && apt-get -y upgrade && apt-get -y  install build-essential z
 
 #### Installing GOLANG
 
-rm -r -v -f /usr/local/go
-
-
 ```
-cd /tmp && wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz && tar -xvf go1.11.5.linux-amd64.tar.gz && rm -r -f /usr/local/go && mv go /usr/local
+
+cd /tmp && wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz && tar -xvf go1.11.5.linux-amd64.tar.gz && rm -r -v -f /usr/local/go && mv go /usr/local
 
 mkdir -p $HOME/go/bin
 

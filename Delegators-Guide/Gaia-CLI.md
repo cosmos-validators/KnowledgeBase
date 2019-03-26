@@ -108,8 +108,10 @@ If you wish to for example delegate `123` ATOMS you have to set this amount to `
 gaiacli tx staking delegate cosmosvaloper1uv26ytrnmydyctq0s58ve2k6wn2p653mqs80fm <amountToBond>uatom --from FundraiserSecret --fees=50000uatom
 ```
 
-
 Once you enter this command you will be prompted to type Y to confirm it's correctness and then type the password you used while recovering your key with 'gaiacli keys add' command to encrypt your FundraiserSecret.
+
+From time to time you might experience `Response:
+ERROR: broadcast_tx_commit: Response error: RPC error -32603 - Internal error: Timed out waiting for tx to be included in a block` in such case you can just repeat the command until it succeeds. 
 
 ## Collecting Delegation Rewards
 
