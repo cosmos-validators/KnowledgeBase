@@ -6,16 +6,16 @@
 
 ### Introduction
 
-This tutorial showcases secure key extraction from the [Cosmos Network](https://cosmos.network/) fundraiser seed and delegation using basic tools and secure, open source software. It's however advised to use Ledger Wallet and follow our tutorial on **[how to delegate using a Hardware Wallet](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)**. If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system or follow our **[Create Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)**. Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer. Note that VM method will not protect you against malware that is potentially already hosted on machine such as keyloggers when you will be retyping your fundraiser seed.
+This tutorial showcases secure key extraction from the [Cosmos Network](https://cosmos.network/) fundraiser seed and delegation using basic tools and secure, open source software. It's however advised to use Ledger Wallet and follow our tutorial on **[how to delegate using a Hardware Wallet](../Secure-Environment.md#creating-secure-environment)**. If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system or follow our **[Create Secure Environment Guide](../Secure-Environment.md#creating-secure-environment)**. Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer. Note that VM method will not protect you against malware that is potentially already hosted on machine such as keyloggers when you will be retyping your fundraiser seed.
 
-_NOTE: If you choose to not follow **[Creating Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)** and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
+_NOTE: If you choose to not follow **[Creating Secure Environment Guide](../Secure-Environment.md#creating-secure-environment)** and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
 
 
 ### Prerequisites
 
 
-*   Completing **[Creation of Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)** or clean installation of Ubuntu 18.04 LTS
-*   Completing **[Installation of Essential Toolkit](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)** on your Secure Environment 
+*   Completing **[Creation of Secure Environment Guide](../Secure-Environment.md#creating-secure-environment)** or clean installation of Ubuntu 18.04 LTS
+*   Completing **[Installation of Essential Toolkit](./Essential-Toolkit.md)** on your Secure Environment 
 
 
 ### Steps To Complete
@@ -26,7 +26,7 @@ _NOTE: If you choose to not follow **[Creating Secure Environment Guide](https:/
 
 ## Account Recovery From Fundraiser Seed
 
-Once installation of **[essential tools](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)** is completed you can proceed to restore your account using fundraiser seed words by adding/creating new encrypted key used to sign transactions. For the tutorial purposes we will call it `FundraiserSecret` but it can be any word that will help you to recognize your key name.
+Once installation of **[essential tools](./Essential-Toolkit.md)** is completed you can proceed to restore your account using fundraiser seed words by adding/creating new encrypted key used to sign transactions. For the tutorial purposes we will call it `FundraiserSecret` but it can be any word that will help you to recognize your key name.
 
 
 ```

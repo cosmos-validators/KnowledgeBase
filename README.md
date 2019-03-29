@@ -5,7 +5,7 @@
 
 ## Cosmos-Network Guides
 
-* ### [Cosmos Network - Delegators Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Delegators-Guide/README.md)
+* ### [Cosmos Network - Delegators Guide](./Delegators-Guide/README.md)
   - fundraiser seed recovery
   - essential toolkit installation
   - account balance check & other basic queries
@@ -16,5 +16,5 @@
 
 ## Generic Guides
 
-* ### [Creating Secure Bootable Environment](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)
+* ### [Creating Secure Environment](./Secure-Environment.md)
   - Ubuntu 18.04 LTS - Full Bootable USB stick 

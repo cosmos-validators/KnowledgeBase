@@ -5,9 +5,9 @@
 
 ## Account Recovery & Delegation
 
-* ### [Using basic CLI tools](https://github.com/cosmos-validators/Tutorials/blob/master/Delegators-Guide/Gaia-CLI.md)
+* ### [Using basic CLI tools](./Gaia-CLI.md)
   - low expense, medium security
 
 
-* ### [Using Ledger Nano S](https://github.com/cosmos-validators/Tutorials/blob/master/Delegators-Guide/Gaia-CLI%2BLedger.md)
+* ### [Using Ledger Nano S](./Gaia-CLI%2BLedger.md)
   - high expense, higher security

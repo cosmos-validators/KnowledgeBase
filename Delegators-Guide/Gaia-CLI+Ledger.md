@@ -8,17 +8,17 @@
 
 ### Introduction
 
-This tutorial showcases secure key extraction from the [Cosmos Network](https://cosmos.network/) fundraiser seed and delegation using [Ledger Nano S](https://www.ledger.com/products/ledger-nano-s) hardware wallet and secure, open source software. If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system or follow or complete our **[Create Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)**. Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer but it might not protect you against all kinds of malware that are potentially already hosted on your machine. For this reason you should always verify the address where your transaction is sent on the screen of your hardware wallet and should never trust what your computer screen is showing you.
+This tutorial showcases secure key extraction from the [Cosmos Network](https://cosmos.network/) fundraiser seed and delegation using [Ledger Nano S](https://www.ledger.com/products/ledger-nano-s) hardware wallet and secure, open source software. If you choose to follow this tutorial make sure you run a clean machine with freshly installed Ubuntu 18.04 LTS operating system or follow or complete our **[Create Secure Environment Guide](../Secure-Environment.md#creating-secure-environment)**. Another (but NOT recommended) option is to run a virtual machine using virtualization software such free [VirtualBox](https://www.virtualbox.org/) and installing Ubuntu as VM to add another security layer but it might not protect you against all kinds of malware that are potentially already hosted on your machine. For this reason you should always verify the address where your transaction is sent on the screen of your hardware wallet and should never trust what your computer screen is showing you.
 
-_NOTE: If you choose to not follow **[Creating Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)** and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
+_NOTE: If you choose to not follow **[Creating Secure Environment Guide](../Secure-Environment.md#creating-secure-environment)** and continue with your everyday "use" operating system we can't guarantee safety of your coins and some of the commands might cause breaking changes to your operating system. Remember that Antivirus / Antimalware software will never protect you against all threats and exploits that can reside on your everyday use Laptop or Personal Computer._
 
 
 ### Prerequisites
 
 
 
-*   Completing **[Creation of Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)** or clean installation of Ubuntu 18.04 LTS
-*   Completing **[Installation of Essential Toolkit](https://github.com/cosmos-validators/Tutorials/blob/master/Delegators-Guide/Essential-Toolkit.md#delegators-essential-toolkit-guide)** on your Secure Environment 
+*   Completing **[Creation of Secure Environment Guide](../Secure-Environment.md#creating-secure-environment)** or clean installation of Ubuntu 18.04 LTS
+*   Completing **[Installation of Essential Toolkit](../Delegators-Guide/Essential-Toolkit.md#delegators-essential-toolkit-guide)** on your Secure Environment 
 
 
 ### Steps To Complete
@@ -38,7 +38,7 @@ _**WARNING!!!** (read before you proceed) If you want to recover your fundraiser
 
 ### Introduction
 
-In this step you will initialize your Ledger Nano S with your Cosmos Fundraiser Seed Phrases so that your ledger device can be used to delegate your coins and send transactions once transfers are enabled. **Note that it's recommended to move your coins to another wallet immediately after ATOM transfers are enabled as security of your seed phrase that was touching web interfaces during fundraiser and likely your every day use laptop can't be guaranteed long term with absolute certainty**. Steps presented in this part of the tutorial (Account Recovery From Fundraiser Seed) can be completed on your everyday use PC/Laptop but it is recommended to use a **[Secure Environment](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)**.
+In this step you will initialize your Ledger Nano S with your Cosmos Fundraiser Seed Phrases so that your ledger device can be used to delegate your coins and send transactions once transfers are enabled. **Note that it's recommended to move your coins to another wallet immediately after ATOM transfers are enabled as security of your seed phrase that was touching web interfaces during fundraiser and likely your every day use laptop can't be guaranteed long term with absolute certainty**. Steps presented in this part of the tutorial (Account Recovery From Fundraiser Seed) can be completed on your everyday use PC/Laptop but it is recommended to use a **[Secure Environment](../Secure-Environment.md#creating-secure-environment)**.
 
 
 ### Prerequisites
@@ -50,9 +50,10 @@ In this step you will initialize your Ledger Nano S with your Cosmos Fundraiser 
 
 
 1. Connect the Ledger Nano S to your computer using the micro USB/USB cable to power it on.
-2. Press both buttons simultaneously as instructed on the device.
-3. Press the left button located above the cancel icon when asked Configure as new device?
-4. Press the right button located above the validation icon to select Restore a configuration?
+2. If your device was never initialized go to step `3.` otherwise to reset your device enter wrong pin 3 times to wipe out it's memory.
+3. Press both buttons simultaneously as instructed on the device.
+4. Press the left button located above the cancel icon when asked Configure as new device?
+5. Press the right button located above the validation icon to select Restore a configuration?
 
 
 ### Choose a PIN code
@@ -92,7 +93,7 @@ Before you proceed make sure that all your [cosmos network fundraiser](https://f
 
 ### Introduction
 
-In case of Ledger each network or blockchain such as Ethereum, Bitcoin, Cosmos has its own dedicated ledger application. In this step we will be installing `COSMOS` Ledger App using Ledger Live desktop client. This part of the tutorial requires Ubuntu 18.04, it's highly recommended that for yours and your files security you create a clean **[Secure Environment](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)**. If you choose not follow this advice and use your everyday use operating system you risk permanently corrupting it or losing your data.
+In case of Ledger each network or blockchain such as Ethereum, Bitcoin, Cosmos has its own dedicated ledger application. In this step we will be installing `COSMOS` Ledger App using Ledger Live desktop client. This part of the tutorial requires Ubuntu 18.04, it's highly recommended that for yours and your files security you create a clean **[Secure Environment](../Secure-Environment.md#creating-secure-environment)**. If you choose not follow this advice and use your everyday use operating system you risk permanently corrupting it or losing your data.
 
 
 ### Prerequisites
@@ -100,7 +101,7 @@ In case of Ledger each network or blockchain such as Ethereum, Bitcoin, Cosmos h
 
 
 *   Ledger Nano S with the supplied micro USB cable
-*   Ubuntu 18.04 LTS Operating System or Completing **[Creation of Secure Environment Guide](https://github.com/cosmos-validators/Tutorials/blob/master/Secure-Environment.md#creating-secure-environment)**.
+*   Ubuntu 18.04 LTS Operating System or Completing **[Creation of Secure Environment Guide](../Secure-Environment.md#creating-secure-environment)**.
 
 
 ### Ledger Live Installation
@@ -176,7 +177,7 @@ It's recommended that you update your Ledger Nano S device to version 1.5.5 or h
 
 ### Account Creation
 
-Once installation of **[essential tools](https://github.com/cosmos-validators/Tutorials/blob/master/Delegators-Guide/Essential-Toolkit.md#delegators-essential-toolkit-guide)** and Cosmos Ledger Application is completed you can proceed to create new "account" using `gaiacli` that will later be used to delegate your coins. For the tutorial purposes we will call your new account `FundraiserAccountLedger` but it can be any word that will help you recognize it origin.
+Once installation of **[essential tools](./Essential-Toolkit.md#delegators-essential-toolkit-guide)** and Cosmos Ledger Application is completed you can proceed to create new "account" using `gaiacli` that will later be used to delegate your coins. For the tutorial purposes we will call your new account `FundraiserAccountLedger` but it can be any word that will help you recognize it origin.
 
 Before you proceed make sure your Ledger Nano S device is connected to your PC with the supplied USB cable and that you entered `COSMOS` Ledger Application otherwise following command will fail with the "ERROR: ledger nano S: are you sure the Cosmos app is open?"
 
